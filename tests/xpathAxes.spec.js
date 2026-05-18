@@ -3,7 +3,7 @@ import{test, expect} from '@playwright/test';
 import { only, skip } from 'node:test';
 
 
-test.skip("xpath axes" , async ({page}) => {
+test("xpath axes" , async ({page}) => {
 
     await page.goto("https://testautomationpractice.blogspot.com/");
 
@@ -14,7 +14,7 @@ test.skip("xpath axes" , async ({page}) => {
 
 })
 
-test.skip("google page" , async ({page}) => {
+test("google page" , async ({page}) => {
 
 
     await page.goto(`https:www.google.com/`);
@@ -29,7 +29,7 @@ test.skip("google page" , async ({page}) => {
 })
 
 
-test.only("calender", async({page}) => {
+test("calender", async({page}) => {
 
     await page.goto("https://www.google.com/");
 

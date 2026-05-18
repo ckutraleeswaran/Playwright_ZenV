@@ -1,6 +1,6 @@
 import{test, expect} from '@playwright/test';
 
-test.skip("radioButton", async({page}) => {
+test("radioButton", async({page}) => {
 
     await page.goto(`https://testautomationpractice.blogspot.com/`);
     await page.waitForTimeout(3000);
@@ -21,7 +21,7 @@ test.skip("radioButton", async({page}) => {
 })
 
 
-test.skip("checkBox", async({page}) => {
+test("checkBox", async({page}) => {
 
     await page.goto(`https://testautomationpractice.blogspot.com/`);
     await page.waitForTimeout(3000);
@@ -38,7 +38,7 @@ test.skip("checkBox", async({page}) => {
 
 })
 
-test.only("multipleCheckBox", async({page}) => {
+test("multipleCheckBox", async({page}) => {
 
     await page.goto(`https://testautomationpractice.blogspot.com/`);
     await page.waitForTimeout(3000);

@@ -2,7 +2,7 @@
 import{test, expect } from '@playwright/test';
 
 // By : kutraleeswaran
-test.skip("Test case 1: Positive LogIn test", async ({page}) => {
+test("Test case 1: Positive LogIn test", async ({page}) => {
 
     await page.goto(`https://practicetestautomation.com/`);
     await page.waitForTimeout(3000);
@@ -60,7 +60,7 @@ test.skip("Test case 1: Positive LogIn test", async ({page}) => {
 
 })
 // By : kutraleeswaran
-test.skip("Test case 2: Negative username test", async ({page}) => {
+test("Test case 2: Negative username test", async ({page}) => {
 
     await page.goto(`https://practicetestautomation.com/`);
     await page.waitForTimeout(3000);
@@ -124,7 +124,7 @@ test.skip("Test case 2: Negative username test", async ({page}) => {
 // Task : RadioButton & CheckBox
 
 // 1.Select any one  - Yes / No                                      By : kutraleeswaran
-test.skip("yes or no radio button", async({page}) => {
+test("yes or no radio button", async({page}) => {
 
     await page.goto(`https://letcode.in/radio`);
     await page.waitForTimeout(3000);
@@ -139,7 +139,7 @@ test.skip("yes or no radio button", async({page}) => {
     
 });
 // 2.Cofirm you can select only one radio button ( Yes / No )        By : kutraleeswaran
-test.skip("Cofirm you can select only one radio button",async({page}) => {
+test("Cofirm you can select only one radio button",async({page}) => {
 
 
     await page.goto(`https://letcode.in/radio`);
@@ -163,7 +163,7 @@ test.skip("Cofirm you can select only one radio button",async({page}) => {
     await page.pause();
 })
 // 3.Find the bug  (Yes /No)                                         By : kutraleeswaran
-test.skip("Find the bug radio button",async({page}) => {
+test("Find the bug radio button",async({page}) => {
 
 
     await page.goto(`https://letcode.in/radio`);
@@ -197,7 +197,7 @@ test.skip("Find the bug radio button",async({page}) => {
     }
 })
 // 4.Find which one is selected ( Foo / Bar )                        By : kutraleeswaran
-test.skip("Find which one is selected radio button",async({page}) => {
+test("Find which one is selected radio button",async({page}) => {
 
     await page.goto(`https://letcode.in/radio`);
     await page.waitForTimeout(3000);
@@ -230,7 +230,7 @@ test.skip("Find which one is selected radio button",async({page}) => {
     }
 })
 // 5.Confirm last field is disabled ( Going &  Not_going & Maybe )   By : kutraleeswaran
-test.skip("Confirm last field is disabled",async({page}) => {
+test("Confirm last field is disabled",async({page}) => {
 
     await page.goto(`https://letcode.in/radio`);
     await page.waitForTimeout(3000);
