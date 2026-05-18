@@ -255,7 +255,7 @@ test.skip("Confirm last field is disabled",async({page}) => {
 
 })
 // 6. Find if the checkbox is selected? ( Remember me )             By : kutraleeswaran
-test.only("Find if the checkbox is selected?",  async({page}) => {
+test("Find if the checkbox is selected?",  async({page}) => {
 
     await page.goto(`https://letcode.in/radio`);
     await page.waitForTimeout(3000);
